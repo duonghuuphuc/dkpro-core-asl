@@ -29,10 +29,10 @@ For a start, let's try a simple analysis pipeline:
 Here is how to run that:
 
    * Open a text editor and copy/paste the following script into it.
-   * Save the file under the name *pipeline.groovy*.
+   * Save the file under the name *pipeline.jy*.
    * Create another text file in the editor, write some English text into it, and save under the name *document.txt*.
    * Open a command line in the directory to which you saved the two files
-   * Invoke the script using the command `groovy pipeline.groovy`
+   * Invoke the script using the command `jython pipeline.jy`
       * This will take quite a while the first time because the software components and models are downloaded
 
 {{{
